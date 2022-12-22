@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="Building" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 128.0
+margin_top = 264.0
+margin_right = 448.0
+margin_bottom = 896.0
+color = Color( 0.596078, 0.564706, 0.419608, 1 )

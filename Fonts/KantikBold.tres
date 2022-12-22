@@ -1,0 +1,4 @@
+[gd_resource type="StyleBoxTexture" format=2]
+
+[resource]
+modulate_color = Color( 0, 1, 0.694118, 1 )
