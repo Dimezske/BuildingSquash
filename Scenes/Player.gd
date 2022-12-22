@@ -15,7 +15,6 @@ func _process(delta):
 func shoot():
 	var bullet = bulletPath.instance()
 	bullet.speed = 300
-	print(bullet.velocity)
 	get_parent().add_child(bullet)
 	bullet.global_position = $Node2D/Position2D.global_position
 	bullet.velocity = get_global_mouse_position() - bullet.global_position

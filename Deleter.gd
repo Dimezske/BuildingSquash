@@ -6,5 +6,4 @@ func _ready():
 
 func _on_Deleter_body_entered(body):
 	if body.is_in_group("Pedestrians"):
-		print("ped is deleting")
 		body.queue_free()

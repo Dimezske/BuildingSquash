@@ -9,7 +9,6 @@ extends Node2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$Ui/Label.visible = false
-	print($Ui/Label.visible)
 	$Player/Bullet.visible = false
 
 func _process(delta):
